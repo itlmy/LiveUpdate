@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiveUpdate", "LiveUpdate\LiveUpdate.vcxproj", "{E8CAA7A7-5E6D-4425-A8BC-28FA3A5E2A9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{867ED3C4-9BE2-4568-8EFE-9DF409E844C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hashlib2plus", "..\3rdparty\hashlib2plus\hashlib2plus.vcxproj", "{88283B7A-A1AF-4BFA-880D-B0A4895033A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libLiveUpdate", "..\3rdparty\libLiveUpdate\libLiveUpdate.vcxproj", "{75C1135B-2BE1-4FCA-9621-C2EBADC52008}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utility", "..\3rdparty\utility\utility.vcxproj", "{7909DC1A-498B-407B-A354-BEA32C9039B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libPlistCpp", "..\3rdparty\libPlistCpp\libPlistCpp.vcxproj", "{1B9BCC72-6067-4B03-A182-C7E5C62E2813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8CAA7A7-5E6D-4425-A8BC-28FA3A5E2A9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8CAA7A7-5E6D-4425-A8BC-28FA3A5E2A9D}.Debug|Win32.Build.0 = Debug|Win32
+		{E8CAA7A7-5E6D-4425-A8BC-28FA3A5E2A9D}.Release|Win32.ActiveCfg = Release|Win32
+		{E8CAA7A7-5E6D-4425-A8BC-28FA3A5E2A9D}.Release|Win32.Build.0 = Release|Win32
+		{88283B7A-A1AF-4BFA-880D-B0A4895033A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88283B7A-A1AF-4BFA-880D-B0A4895033A8}.Debug|Win32.Build.0 = Debug|Win32
+		{88283B7A-A1AF-4BFA-880D-B0A4895033A8}.Release|Win32.ActiveCfg = Release|Win32
+		{88283B7A-A1AF-4BFA-880D-B0A4895033A8}.Release|Win32.Build.0 = Release|Win32
+		{75C1135B-2BE1-4FCA-9621-C2EBADC52008}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75C1135B-2BE1-4FCA-9621-C2EBADC52008}.Debug|Win32.Build.0 = Debug|Win32
+		{75C1135B-2BE1-4FCA-9621-C2EBADC52008}.Release|Win32.ActiveCfg = Release|Win32
+		{75C1135B-2BE1-4FCA-9621-C2EBADC52008}.Release|Win32.Build.0 = Release|Win32
+		{7909DC1A-498B-407B-A354-BEA32C9039B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7909DC1A-498B-407B-A354-BEA32C9039B2}.Debug|Win32.Build.0 = Debug|Win32
+		{7909DC1A-498B-407B-A354-BEA32C9039B2}.Release|Win32.ActiveCfg = Release|Win32
+		{7909DC1A-498B-407B-A354-BEA32C9039B2}.Release|Win32.Build.0 = Release|Win32
+		{1B9BCC72-6067-4B03-A182-C7E5C62E2813}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B9BCC72-6067-4B03-A182-C7E5C62E2813}.Debug|Win32.Build.0 = Debug|Win32
+		{1B9BCC72-6067-4B03-A182-C7E5C62E2813}.Release|Win32.ActiveCfg = Release|Win32
+		{1B9BCC72-6067-4B03-A182-C7E5C62E2813}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88283B7A-A1AF-4BFA-880D-B0A4895033A8} = {867ED3C4-9BE2-4568-8EFE-9DF409E844C9}
+		{75C1135B-2BE1-4FCA-9621-C2EBADC52008} = {867ED3C4-9BE2-4568-8EFE-9DF409E844C9}
+		{7909DC1A-498B-407B-A354-BEA32C9039B2} = {867ED3C4-9BE2-4568-8EFE-9DF409E844C9}
+		{1B9BCC72-6067-4B03-A182-C7E5C62E2813} = {867ED3C4-9BE2-4568-8EFE-9DF409E844C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A420385-32D6-40DD-B6C1-D6B80C2F9F97}
+	EndGlobalSection
+EndGlobal

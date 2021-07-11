@@ -1,0 +1,10 @@
+﻿  pngunknown.c
+  pngunknown.vcxproj -> D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.exe
+  pngunknown.vcxproj -> D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.pdb (Full PDB)
+  PASS: D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.exe discard
+  PASS: D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.exe save
+  PASS: D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.exe if-safe
+  PASS: D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.exe vpAg
+  PASS: D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.exe sTER
+  PASS: D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.exe IDAT
+  PASS: D:\work\CoHome-pc\3D\tools\LiveUpdate\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Debug Library\pngunknown.exe sAPI

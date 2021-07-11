@@ -1,0 +1,1689 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:41。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\3.3.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\3.3.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\3.3.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.73
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/3.3.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0e556.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:43。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_0e556.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0e556.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0e556.dir\Debug\cmTC_0e556.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0e556.dir\Debug\cmTC_0e556.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0e556.dir\Debug\\" /Fd"cmTC_0e556.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0e556.dir\Debug\\" /Fd"cmTC_0e556.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_0e556.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_0e556.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_0e556.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0e556.dir\Debug\testCCompiler.obj
+  cmTC_0e556.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_0e556.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0e556.dir\Debug\cmTC_0e556.tlog\unsuccessfulbuild”。
+  正在对“cmTC_0e556.dir\Debug\cmTC_0e556.tlog\cmTC_0e556.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_0e556.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.42
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f5581.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:44。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_f5581.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f5581.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f5581.dir\Debug\cmTC_f5581.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f5581.dir\Debug\cmTC_f5581.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f5581.dir\Debug\\" /Fd"cmTC_f5581.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f5581.dir\Debug\\" /Fd"cmTC_f5581.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_f5581.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_f5581.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_f5581.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_f5581.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_f5581.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_f5581.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f5581.dir\Debug\cmTC_f5581.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f5581.dir\Debug\cmTC_f5581.tlog\cmTC_f5581.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_f5581.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.45
+
+
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_87219.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:46。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_87219.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_87219.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_87219.dir\Debug\cmTC_87219.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_87219.dir\Debug\cmTC_87219.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_87219.dir\Debug\\" /Fd"cmTC_87219.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_87219.dir\Debug\\" /Fd"cmTC_87219.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_87219.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_87219.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_87219.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_87219.dir\Debug\CheckFunctionExists.obj
+  cmTC_87219.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_87219.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_87219.dir\Debug\cmTC_87219.tlog\unsuccessfulbuild”。
+  正在对“cmTC_87219.dir\Debug\cmTC_87219.tlog\cmTC_87219.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_87219.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.41
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_39667.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:46。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_39667.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_39667.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_39667.dir\Debug\cmTC_39667.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_39667.dir\Debug\cmTC_39667.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_39667.dir\Debug\\" /Fd"cmTC_39667.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_39667.dir\Debug\\" /Fd"cmTC_39667.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_39667.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib winmm.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_39667.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_39667.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_39667.dir\Debug\CheckFunctionExists.obj
+  cmTC_39667.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_39667.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_39667.dir\Debug\cmTC_39667.tlog\unsuccessfulbuild”。
+  正在对“cmTC_39667.dir\Debug\cmTC_39667.tlog\cmTC_39667.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_39667.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.44
+
+
+Determining if the function cldap_open exists in the wldap32 passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_88e0e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:47。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_88e0e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_88e0e.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_88e0e.dir\Debug\cmTC_88e0e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_88e0e.dir\Debug\cmTC_88e0e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cldap_open /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_88e0e.dir\Debug\\" /Fd"cmTC_88e0e.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cldap_open /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_88e0e.dir\Debug\\" /Fd"cmTC_88e0e.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_88e0e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wldap32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_88e0e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_88e0e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_88e0e.dir\Debug\CheckFunctionExists.obj
+  cmTC_88e0e.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_88e0e.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_88e0e.dir\Debug\cmTC_88e0e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_88e0e.dir\Debug\cmTC_88e0e.tlog\cmTC_88e0e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_88e0e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.44
+
+
+Determining if files ;ws2tcpip.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_672a9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:51。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_672a9.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_672a9.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_672a9.dir\Debug\cmTC_672a9.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_672a9.dir\Debug\cmTC_672a9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_672a9.dir\Debug\\" /Fd"cmTC_672a9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_672a9.dir\Debug\\" /Fd"cmTC_672a9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_672a9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_672a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_672a9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_672a9.dir\Debug\CheckIncludeFiles.obj
+  cmTC_672a9.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_672a9.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_672a9.dir\Debug\cmTC_672a9.tlog\unsuccessfulbuild”。
+  正在对“cmTC_672a9.dir\Debug\cmTC_672a9.tlog\cmTC_672a9.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_672a9.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.21
+
+
+Determining if files ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_13917.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:52。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_13917.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_13917.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_13917.dir\Debug\cmTC_13917.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_13917.dir\Debug\cmTC_13917.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_13917.dir\Debug\\" /Fd"cmTC_13917.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_13917.dir\Debug\\" /Fd"cmTC_13917.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_13917.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_13917.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_13917.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_13917.dir\Debug\CheckIncludeFiles.obj
+  cmTC_13917.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_13917.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_13917.dir\Debug\cmTC_13917.tlog\unsuccessfulbuild”。
+  正在对“cmTC_13917.dir\Debug\cmTC_13917.tlog\cmTC_13917.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_13917.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.57
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0f15c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:53。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_0f15c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0f15c.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0f15c.dir\Debug\cmTC_0f15c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0f15c.dir\Debug\cmTC_0f15c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0f15c.dir\Debug\\" /Fd"cmTC_0f15c.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0f15c.dir\Debug\\" /Fd"cmTC_0f15c.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_0f15c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_0f15c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_0f15c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0f15c.dir\Debug\CheckIncludeFiles.obj
+  cmTC_0f15c.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_0f15c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0f15c.dir\Debug\cmTC_0f15c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_0f15c.dir\Debug\cmTC_0f15c.tlog\cmTC_0f15c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_0f15c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h;windows.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c179f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:54。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_c179f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c179f.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c179f.dir\Debug\cmTC_c179f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c179f.dir\Debug\cmTC_c179f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c179f.dir\Debug\\" /Fd"cmTC_c179f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c179f.dir\Debug\\" /Fd"cmTC_c179f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_c179f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_c179f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_c179f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_c179f.dir\Debug\CheckIncludeFiles.obj
+  cmTC_c179f.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_c179f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c179f.dir\Debug\cmTC_c179f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c179f.dir\Debug\cmTC_c179f.tlog\cmTC_c179f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_c179f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.63
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h;windows.h;winsock.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b1fcc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:54。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_b1fcc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b1fcc.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b1fcc.dir\Debug\cmTC_b1fcc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b1fcc.dir\Debug\cmTC_b1fcc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b1fcc.dir\Debug\\" /Fd"cmTC_b1fcc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b1fcc.dir\Debug\\" /Fd"cmTC_b1fcc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_b1fcc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_b1fcc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_b1fcc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_b1fcc.dir\Debug\CheckIncludeFiles.obj
+  cmTC_b1fcc.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_b1fcc.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b1fcc.dir\Debug\cmTC_b1fcc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b1fcc.dir\Debug\cmTC_b1fcc.tlog\cmTC_b1fcc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_b1fcc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.61
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h;windows.h;winsock.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7e808.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:13:59。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_7e808.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7e808.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7e808.dir\Debug\cmTC_7e808.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7e808.dir\Debug\cmTC_7e808.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7e808.dir\Debug\\" /Fd"cmTC_7e808.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7e808.dir\Debug\\" /Fd"cmTC_7e808.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_7e808.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_7e808.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_7e808.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_7e808.dir\Debug\CheckIncludeFiles.obj
+  cmTC_7e808.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_7e808.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7e808.dir\Debug\cmTC_7e808.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7e808.dir\Debug\cmTC_7e808.tlog\cmTC_7e808.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_7e808.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.59
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h;windows.h;winsock.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_091a4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:01。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_091a4.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_091a4.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_091a4.dir\Debug\cmTC_091a4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_091a4.dir\Debug\cmTC_091a4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_091a4.dir\Debug\\" /Fd"cmTC_091a4.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_091a4.dir\Debug\\" /Fd"cmTC_091a4.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_091a4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_091a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_091a4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_091a4.dir\Debug\CheckIncludeFiles.obj
+  cmTC_091a4.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_091a4.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_091a4.dir\Debug\cmTC_091a4.tlog\unsuccessfulbuild”。
+  正在对“cmTC_091a4.dir\Debug\cmTC_091a4.tlog\cmTC_091a4.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_091a4.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.61
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h;windows.h;winsock.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_033fc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:05。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_033fc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_033fc.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_033fc.dir\Debug\cmTC_033fc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_033fc.dir\Debug\cmTC_033fc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_033fc.dir\Debug\\" /Fd"cmTC_033fc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_033fc.dir\Debug\\" /Fd"cmTC_033fc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_033fc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_033fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_033fc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_033fc.dir\Debug\CheckIncludeFiles.obj
+  cmTC_033fc.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_033fc.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_033fc.dir\Debug\cmTC_033fc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_033fc.dir\Debug\cmTC_033fc.tlog\cmTC_033fc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_033fc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.58
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h;windows.h;winsock.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h;locale.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f6d74.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:05。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_f6d74.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f6d74.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f6d74.dir\Debug\cmTC_f6d74.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f6d74.dir\Debug\cmTC_f6d74.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f6d74.dir\Debug\\" /Fd"cmTC_f6d74.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f6d74.dir\Debug\\" /Fd"cmTC_f6d74.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_f6d74.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_f6d74.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_f6d74.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_f6d74.dir\Debug\CheckIncludeFiles.obj
+  cmTC_f6d74.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_f6d74.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f6d74.dir\Debug\cmTC_f6d74.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f6d74.dir\Debug\cmTC_f6d74.tlog\cmTC_f6d74.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_f6d74.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h;windows.h;winsock.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_fc021.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:09。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_fc021.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_fc021.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_fc021.dir\Debug\cmTC_fc021.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_fc021.dir\Debug\cmTC_fc021.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_fc021.dir\Debug\\" /Fd"cmTC_fc021.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_fc021.dir\Debug\\" /Fd"cmTC_fc021.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_fc021.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_fc021.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_fc021.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_fc021.dir\Debug\CheckIncludeFiles.obj
+  cmTC_fc021.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_fc021.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_fc021.dir\Debug\cmTC_fc021.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fc021.dir\Debug\cmTC_fc021.tlog\cmTC_fc021.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_fc021.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.59
+
+
+Determining if files ws2tcpip.h;winsock2.h;stdio.h;windows.h;winsock.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_abe48.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:11。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_abe48.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_abe48.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_abe48.dir\Debug\cmTC_abe48.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_abe48.dir\Debug\cmTC_abe48.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_abe48.dir\Debug\\" /Fd"cmTC_abe48.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_abe48.dir\Debug\\" /Fd"cmTC_abe48.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_abe48.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_abe48.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_abe48.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_abe48.dir\Debug\CheckIncludeFiles.obj
+  cmTC_abe48.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_abe48.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_abe48.dir\Debug\cmTC_abe48.tlog\unsuccessfulbuild”。
+  正在对“cmTC_abe48.dir\Debug\cmTC_abe48.tlog\cmTC_abe48.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_abe48.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.61
+
+
+Determining size of size_t passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ff0af.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:13。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_ff0af.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ff0af.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ff0af.dir\Debug\cmTC_ff0af.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ff0af.dir\Debug\cmTC_ff0af.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ff0af.dir\Debug\\" /Fd"cmTC_ff0af.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ff0af.dir\Debug\\" /Fd"cmTC_ff0af.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  
+  SIZEOF_SIZE_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_ff0af.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_ff0af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_ff0af.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_ff0af.dir\Debug\SIZEOF_SIZE_T.obj
+  cmTC_ff0af.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_ff0af.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ff0af.dir\Debug\cmTC_ff0af.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ff0af.dir\Debug\cmTC_ff0af.tlog\cmTC_ff0af.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_ff0af.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.37
+
+
+Determining size of long long passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_05297.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:14。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_05297.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_05297.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_05297.dir\Debug\cmTC_05297.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_05297.dir\Debug\cmTC_05297.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_05297.dir\Debug\\" /Fd"cmTC_05297.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_05297.dir\Debug\\" /Fd"cmTC_05297.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  
+  SIZEOF_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_05297.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_05297.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_05297.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_05297.dir\Debug\SIZEOF_LONG_LONG.obj
+  cmTC_05297.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_05297.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_05297.dir\Debug\cmTC_05297.tlog\unsuccessfulbuild”。
+  正在对“cmTC_05297.dir\Debug\cmTC_05297.tlog\cmTC_05297.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_05297.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.43
+
+
+Determining size of long passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0da15.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:15。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_0da15.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0da15.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0da15.dir\Debug\cmTC_0da15.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0da15.dir\Debug\cmTC_0da15.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0da15.dir\Debug\\" /Fd"cmTC_0da15.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0da15.dir\Debug\\" /Fd"cmTC_0da15.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  
+  SIZEOF_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_0da15.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_0da15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_0da15.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0da15.dir\Debug\SIZEOF_LONG.obj
+  cmTC_0da15.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_0da15.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0da15.dir\Debug\cmTC_0da15.tlog\unsuccessfulbuild”。
+  正在对“cmTC_0da15.dir\Debug\cmTC_0da15.tlog\cmTC_0da15.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_0da15.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.37
+
+
+Determining size of short passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_6e48d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:15。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_6e48d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6e48d.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6e48d.dir\Debug\cmTC_6e48d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6e48d.dir\Debug\cmTC_6e48d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6e48d.dir\Debug\\" /Fd"cmTC_6e48d.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6e48d.dir\Debug\\" /Fd"cmTC_6e48d.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+  
+  SIZEOF_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_6e48d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_6e48d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_6e48d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_6e48d.dir\Debug\SIZEOF_SHORT.obj
+  cmTC_6e48d.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_6e48d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6e48d.dir\Debug\cmTC_6e48d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6e48d.dir\Debug\cmTC_6e48d.tlog\cmTC_6e48d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_6e48d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.41
+
+
+Determining size of int passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2a25e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:16。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_2a25e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2a25e.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2a25e.dir\Debug\cmTC_2a25e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2a25e.dir\Debug\cmTC_2a25e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2a25e.dir\Debug\\" /Fd"cmTC_2a25e.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2a25e.dir\Debug\\" /Fd"cmTC_2a25e.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  
+  SIZEOF_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_2a25e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_2a25e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_2a25e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_2a25e.dir\Debug\SIZEOF_INT.obj
+  cmTC_2a25e.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_2a25e.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_2a25e.dir\Debug\cmTC_2a25e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_2a25e.dir\Debug\cmTC_2a25e.tlog\cmTC_2a25e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_2a25e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.42
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_6e0ed.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:16。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_6e0ed.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6e0ed.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6e0ed.dir\Debug\cmTC_6e0ed.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6e0ed.dir\Debug\cmTC_6e0ed.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6e0ed.dir\Debug\\" /Fd"cmTC_6e0ed.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6e0ed.dir\Debug\\" /Fd"cmTC_6e0ed.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c"
+  
+  SIZEOF___INT64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_6e0ed.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_6e0ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_6e0ed.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_6e0ed.dir\Debug\SIZEOF___INT64.obj
+  cmTC_6e0ed.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_6e0ed.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6e0ed.dir\Debug\cmTC_6e0ed.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6e0ed.dir\Debug\cmTC_6e0ed.tlog\cmTC_6e0ed.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_6e0ed.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.38
+
+
+Determining size of time_t passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_bffb7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:17。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_bffb7.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bffb7.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_bffb7.dir\Debug\cmTC_bffb7.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bffb7.dir\Debug\cmTC_bffb7.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bffb7.dir\Debug\\" /Fd"cmTC_bffb7.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bffb7.dir\Debug\\" /Fd"cmTC_bffb7.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c"
+  
+  SIZEOF_TIME_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_bffb7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_bffb7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_bffb7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_bffb7.dir\Debug\SIZEOF_TIME_T.obj
+  cmTC_bffb7.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_bffb7.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_bffb7.dir\Debug\cmTC_bffb7.tlog\unsuccessfulbuild”。
+  正在对“cmTC_bffb7.dir\Debug\cmTC_bffb7.tlog\cmTC_bffb7.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_bffb7.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.39
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_08082.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:20。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_08082.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_08082.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_08082.dir\Debug\cmTC_08082.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_08082.dir\Debug\cmTC_08082.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_08082.dir\Debug\\" /Fd"cmTC_08082.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_08082.dir\Debug\\" /Fd"cmTC_08082.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c(32): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_08082.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : 参见“gethostbyname”的声明
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_08082.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_08082.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_08082.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_08082.dir\Debug\CheckSymbolExists.obj
+  cmTC_08082.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_08082.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_08082.dir\Debug\cmTC_08082.tlog\unsuccessfulbuild”。
+  正在对“cmTC_08082.dir\Debug\cmTC_08082.tlog\cmTC_08082.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_08082.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_08082.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c(32): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_08082.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:00.68
+
+File E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0bdb3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:21。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_0bdb3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0bdb3.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0bdb3.dir\Debug\cmTC_0bdb3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0bdb3.dir\Debug\cmTC_0bdb3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0bdb3.dir\Debug\\" /Fd"cmTC_0bdb3.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0bdb3.dir\Debug\\" /Fd"cmTC_0bdb3.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_0bdb3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_0bdb3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_0bdb3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0bdb3.dir\Debug\CheckSymbolExists.obj
+  cmTC_0bdb3.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_0bdb3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0bdb3.dir\Debug\cmTC_0bdb3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_0bdb3.dir\Debug\cmTC_0bdb3.tlog\cmTC_0bdb3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_0bdb3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.63
+
+File E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a3385.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:21。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_a3385.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a3385.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a3385.dir\Debug\cmTC_a3385.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a3385.dir\Debug\cmTC_a3385.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a3385.dir\Debug\\" /Fd"cmTC_a3385.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a3385.dir\Debug\\" /Fd"cmTC_a3385.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_a3385.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_a3385.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_a3385.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a3385.dir\Debug\CheckSymbolExists.obj
+  cmTC_a3385.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_a3385.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a3385.dir\Debug\cmTC_a3385.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a3385.dir\Debug\cmTC_a3385.tlog\cmTC_a3385.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_a3385.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.59
+
+File E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_34d83.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:24。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_34d83.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_34d83.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_34d83.dir\Debug\cmTC_34d83.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_34d83.dir\Debug\cmTC_34d83.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_34d83.dir\Debug\\" /Fd"cmTC_34d83.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_34d83.dir\Debug\\" /Fd"cmTC_34d83.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_34d83.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_34d83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_34d83.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_34d83.dir\Debug\CheckSymbolExists.obj
+  cmTC_34d83.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_34d83.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_34d83.dir\Debug\cmTC_34d83.tlog\unsuccessfulbuild”。
+  正在对“cmTC_34d83.dir\Debug\cmTC_34d83.tlog\cmTC_34d83.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_34d83.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.65
+
+File E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f517d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:26。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_f517d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f517d.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f517d.dir\Debug\cmTC_f517d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f517d.dir\Debug\cmTC_f517d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f517d.dir\Debug\\" /Fd"cmTC_f517d.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f517d.dir\Debug\\" /Fd"cmTC_f517d.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_f517d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_f517d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_f517d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_f517d.dir\Debug\CheckSymbolExists.obj
+  cmTC_f517d.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_f517d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f517d.dir\Debug\cmTC_f517d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f517d.dir\Debug\cmTC_f517d.tlog\cmTC_f517d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_f517d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+File E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setlocale exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_cd4c0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:30。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_cd4c0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cd4c0.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cd4c0.dir\Debug\cmTC_cd4c0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cd4c0.dir\Debug\cmTC_cd4c0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_cd4c0.dir\Debug\\" /Fd"cmTC_cd4c0.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_cd4c0.dir\Debug\\" /Fd"cmTC_cd4c0.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_cd4c0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_cd4c0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_cd4c0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_cd4c0.dir\Debug\CheckSymbolExists.obj
+  cmTC_cd4c0.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_cd4c0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_cd4c0.dir\Debug\cmTC_cd4c0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_cd4c0.dir\Debug\cmTC_cd4c0.tlog\cmTC_cd4c0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_cd4c0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+File E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_08bac.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:33。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_08bac.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_08bac.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_08bac.dir\Debug\cmTC_08bac.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_08bac.dir\Debug\cmTC_08bac.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_08bac.dir\Debug\\" /Fd"cmTC_08bac.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_08bac.dir\Debug\\" /Fd"cmTC_08bac.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_08bac.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_08bac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_08bac.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_08bac.dir\Debug\CheckSymbolExists.obj
+  cmTC_08bac.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_08bac.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_08bac.dir\Debug\cmTC_08bac.tlog\unsuccessfulbuild”。
+  正在对“cmTC_08bac.dir\Debug\cmTC_08bac.tlog\cmTC_08bac.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_08bac.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.65
+
+File E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ee9a3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:34。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_ee9a3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ee9a3.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ee9a3.dir\Debug\cmTC_ee9a3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ee9a3.dir\Debug\cmTC_ee9a3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ee9a3.dir\Debug\\" /Fd"cmTC_ee9a3.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ee9a3.dir\Debug\\" /Fd"cmTC_ee9a3.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+e:\work\client\trunk\htlobby\3rdparty\curl-7.40.0\cmake\curltests.c(322): warning C4700: 使用了未初始化的局部变量“socket” [E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_ee9a3.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_ee9a3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_ee9a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_ee9a3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_ee9a3.dir\Debug\CurlTests.obj
+  cmTC_ee9a3.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_ee9a3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ee9a3.dir\Debug\cmTC_ee9a3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ee9a3.dir\Debug\cmTC_ee9a3.tlog\cmTC_ee9a3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_ee9a3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_ee9a3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  e:\work\client\trunk\htlobby\3rdparty\curl-7.40.0\cmake\curltests.c(322): warning C4700: 使用了未初始化的局部变量“socket” [E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_ee9a3.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:00.51
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8cdcb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:35。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_8cdcb.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8cdcb.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8cdcb.dir\Debug\cmTC_8cdcb.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8cdcb.dir\Debug\cmTC_8cdcb.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8cdcb.dir\Debug\\" /Fd"cmTC_8cdcb.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8cdcb.dir\Debug\\" /Fd"cmTC_8cdcb.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_8cdcb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_8cdcb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_8cdcb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_8cdcb.dir\Debug\CurlTests.obj
+  cmTC_8cdcb.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_8cdcb.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8cdcb.dir\Debug\cmTC_8cdcb.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8cdcb.dir\Debug\cmTC_8cdcb.tlog\cmTC_8cdcb.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_8cdcb.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.47
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c7e04.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:36。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_c7e04.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c7e04.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c7e04.dir\Debug\cmTC_c7e04.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c7e04.dir\Debug\cmTC_c7e04.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c7e04.dir\Debug\\" /Fd"cmTC_c7e04.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c7e04.dir\Debug\\" /Fd"cmTC_c7e04.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_c7e04.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_c7e04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_c7e04.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_c7e04.dir\Debug\CurlTests.obj
+  cmTC_c7e04.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_c7e04.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c7e04.dir\Debug\cmTC_c7e04.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c7e04.dir\Debug\cmTC_c7e04.tlog\cmTC_c7e04.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_c7e04.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.50
+
+Performing Curl Test HAVE_SOCKLEN_T passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4ebc3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:38。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_4ebc3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_4ebc3.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_4ebc3.dir\Debug\cmTC_4ebc3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_4ebc3.dir\Debug\cmTC_4ebc3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4ebc3.dir\Debug\\" /Fd"cmTC_4ebc3.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4ebc3.dir\Debug\\" /Fd"cmTC_4ebc3.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_4ebc3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_4ebc3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_4ebc3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_4ebc3.dir\Debug\CurlTests.obj
+  cmTC_4ebc3.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_4ebc3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_4ebc3.dir\Debug\cmTC_4ebc3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_4ebc3.dir\Debug\cmTC_4ebc3.tlog\cmTC_4ebc3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_4ebc3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.62
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_89a69.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:39。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_89a69.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_89a69.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_89a69.dir\Debug\cmTC_89a69.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_89a69.dir\Debug\cmTC_89a69.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_89a69.dir\Debug\\" /Fd"cmTC_89a69.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_89a69.dir\Debug\\" /Fd"cmTC_89a69.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_89a69.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_89a69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_89a69.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_89a69.dir\Debug\CurlTests.obj
+  cmTC_89a69.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_89a69.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_89a69.dir\Debug\cmTC_89a69.tlog\unsuccessfulbuild”。
+  正在对“cmTC_89a69.dir\Debug\cmTC_89a69.tlog\cmTC_89a69.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_89a69.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.37
+
+Determining size of socklen_t passed with the following output:
+Change Dir: E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5f934.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.31101.0
+[Microsoft .NET Framework 版本 4.0.30319.18408]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2015/10/16 15:14:41。
+节点 1 上的项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_5f934.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5f934.dir\Debug\”。
+  正在创建目录“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5f934.dir\Debug\cmTC_5f934.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5f934.dir\Debug\cmTC_5f934.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5f934.dir\Debug\\" /Fd"cmTC_5f934.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.31101 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5f934.dir\Debug\\" /Fd"cmTC_5f934.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c"
+  
+  CURL_SIZEOF_CURL_SOCKLEN_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_5f934.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_5f934.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/work/client/trunk/htLobby/3rdparty/curl-7.40.0/CMakeFiles/CMakeTmp/Debug/cmTC_5f934.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_5f934.dir\Debug\CURL_SIZEOF_CURL_SOCKLEN_T.obj
+  cmTC_5f934.vcxproj -> E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\Debug\cmTC_5f934.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5f934.dir\Debug\cmTC_5f934.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5f934.dir\Debug\cmTC_5f934.tlog\cmTC_5f934.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\client\trunk\htLobby\3rdparty\curl-7.40.0\CMakeFiles\CMakeTmp\cmTC_5f934.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+

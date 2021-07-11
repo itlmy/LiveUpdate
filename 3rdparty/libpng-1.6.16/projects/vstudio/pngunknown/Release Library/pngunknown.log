@@ -1,0 +1,12 @@
+﻿  pngunknown.c
+  正在生成代码
+  已完成代码的生成
+  pngunknown.vcxproj -> D:\tools\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Release Library\pngunknown.exe
+  Executing PNG validation program
+  PASS: D:\tools\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Release Library\pngunknown.exe discard
+  PASS: D:\tools\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Release Library\pngunknown.exe save
+  PASS: D:\tools\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Release Library\pngunknown.exe if-safe
+  PASS: D:\tools\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Release Library\pngunknown.exe vpAg
+  PASS: D:\tools\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Release Library\pngunknown.exe sTER
+  PASS: D:\tools\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Release Library\pngunknown.exe IDAT
+  PASS: D:\tools\Client\Lobby\3rdparty\libpng-1.6.16\projects\vstudio\Release Library\pngunknown.exe sAPI

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\client\trunk\htLobby\3rdparty\PlistCpp-master\src\runTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\client\trunk\htLobby\3rdparty\PlistCpp-master\src\plistTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\client\trunk\htLobby\3rdparty\PlistCpp-master\src\pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\client\trunk\htLobby\3rdparty\PlistCpp-master\src\Plist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\client\trunk\htLobby\3rdparty\PlistCpp-master\src\PlistDate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\client\trunk\htLobby\3rdparty\PlistCpp-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BE08F813-7F87-47CA-8920-F18B3516B310}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
